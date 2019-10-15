@@ -6,7 +6,7 @@
   "scripts": {
     "build": "textlint-scripts build",
     "test": "textlint-scripts test",
-    "prepublish": "npm run --if-present build"
+    "postinstall": "npm run --if-present build"
   },
   "repository": {
     "type": "git",
