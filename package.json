@@ -5,8 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "textlint-scripts build",
-    "test": "textlint-scripts test",
-    "postinstall": "npm run --if-present build"
+    "test": "textlint-scripts test"
   },
   "repository": {
     "type": "git",
