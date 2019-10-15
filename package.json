@@ -2,7 +2,7 @@
   "name": "textlint-rule-katakana-prolonged",
   "version": "0.0.1",
   "description": "textlint: textlint rule that checks katakana prolonged sound.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "textlint-scripts build",
     "test": "textlint-scripts test"
