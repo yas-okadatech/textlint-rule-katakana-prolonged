@@ -1,6 +1,7 @@
 # This dictionary is based on http://www.jtf.jp/jp/style_guide/jtfstylechecker.html
 # テクニカルコミュニケーター協会> 外来語（カタカナ）表記ガイドライン http://www.jtca.org/standardization/
-# TODO: [WIP] not complete
+#
+# コピー元: https://github.com/textlint-ja/textlint-rule-preset-JTF-style/blob/master/dict/2.1.6.yml
 version: 1
 rules:
   - expected: アドベンチャー$1
@@ -24,6 +25,7 @@ rules:
   - expected: アブソーバー$1
     patterns: /アブソーバ([^ー])/
 
+  # 大辞林には存在しない
   - expected: イレーサー$1
     patterns: /イレーサ([^ー])/
 
@@ -138,9 +140,11 @@ rules:
   - expected: スキャナー$1
     patterns: /スキャナ([^ー])/
 
+  # 大辞林には存在しない
   - expected: スタッカー$1
     patterns: /スタッカ([^ー])/
 
+  # 大辞林には存在しない
   - expected: セーバー$1
     patterns: /セーバ([^ー])/
 
@@ -210,6 +214,7 @@ rules:
   - expected: バインダー$1
     patterns: /バインダ([^ー])/
 
+  # 大辞林には存在しない
   - expected: バインダリー$1
     patterns: /バインダリ([^ー])/
 
@@ -246,6 +251,7 @@ rules:
   - expected: フィーダー$1
     patterns: /フィーダ([^ー])/
 
+  # 大辞林には存在しない
   - expected: フィニッシャー$1
     patterns: /フィニッシャ([^ー])/
 
@@ -258,6 +264,7 @@ rules:
   - expected: フッター$1
     patterns: /フッタ([^ー])/
 
+  # 大辞林には存在しない
   - expected: フューザー$1
     patterns: /フューザ([^ー])/
 
