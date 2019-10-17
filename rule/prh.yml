@@ -103,6 +103,10 @@ rules:
   - expected: コンデンサー$1
     patterns: /コンデンサ([^ー])/
 
+  # 大辞林から追加
+  - expected: コンテナ
+    patterns: /コンテナー/
+
   - expected: コントローラー$1
     patterns: /コントローラ([^ー])/
 
